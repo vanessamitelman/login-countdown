@@ -146,6 +146,7 @@ form input[type='submit'] {
   margin-top: 10px;
   width: 150px;
   box-sizing: content-box;
+  height: 50px;
 }
 form input[type='submit']:hover {
   cursor: pointer;
