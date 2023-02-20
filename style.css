@@ -17,6 +17,10 @@ body {
   left: 0;
   z-index: -1;
 }
+video {
+  object-fit: cover;
+  height: 100vh;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -218,7 +222,13 @@ form:hover {
   left: 90px;
   z-index: -1;
 }
-
+@media screen and (max-width: 768px) {
+  .drop-4,
+  .drop-3,
+  .drop-2 {
+    right: 0;
+  }
+}
 a,
 input:focus,
 select:focus,
