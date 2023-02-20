@@ -470,7 +470,7 @@ form input {
   font-weight: 500;
   transition: all 0.2s ease-in-out;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  box-shadow: 4px 4px 60px rgb(0 0 0 / 20%), inset 1px -1px 3px 3px #fff;
+  /* box-shadow: 4px 4px 60px rgb(0 0 0 / 20%), inset 1px -1px 3px 3px #fff; */
 }
 form input[disabled] {
   background-color: #000;
