@@ -112,7 +112,7 @@ form a:active {
 form input {
   background: transparent;
   width: 200px;
-  padding: 1em;
+  padding: 14px;
   margin-bottom: 2em;
   border: none;
   border-left: 1px solid rgba(255, 255, 255, 0.3);
@@ -126,6 +126,7 @@ form input {
   font-weight: 500;
   transition: all 0.2s ease-in-out;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  outline: none;
 }
 form input[disabled] {
   background-color: #000;
@@ -145,8 +146,6 @@ form input[type='password']:focus {
 form input[type='submit'] {
   margin-top: 10px;
   width: 150px;
-  box-sizing: content-box;
-  height: 50px;
 }
 form input[type='submit']:hover {
   cursor: pointer;
