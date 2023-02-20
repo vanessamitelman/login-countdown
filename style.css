@@ -147,14 +147,17 @@ form input[type='submit'] {
   margin-top: 10px;
   width: 150px;
   padding: 14px;
+  height: 44.5px;
 }
 form input[type='submit']:hover {
   cursor: pointer;
   padding: 14px;
+  height: 44.5px;
 }
 form input[type='submit']:active {
   background: rgba(255, 255, 255, 0.2);
   padding: 14px;
+  height: 44.5px;
 }
 form:hover {
   margin: 10px;
