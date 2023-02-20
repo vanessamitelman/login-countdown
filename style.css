@@ -145,6 +145,7 @@ form input[type='password']:focus {
 form input[type='submit'] {
   margin-top: 10px;
   width: 150px;
+  box-sizing: content-box;
 }
 form input[type='submit']:hover {
   cursor: pointer;
