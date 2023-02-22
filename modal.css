@@ -1,0 +1,51 @@
+@keyframes modal {
+  0% {
+    top: -330px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+.modal-container {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #263e58;
+}
+.modal-container.open {
+  display: block;
+}
+.modal-outer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.modal-inner {
+  width: max(50vw, 250px);
+  height: 50%;
+  background: #fff;
+  color: #000;
+  animation: modal 1s ease-in-out;
+  position: relative;
+}
+.modal-inner > * {
+  padding: 1rem;
+}
+.modal-header {
+  background-color: #000;
+  color: #fff;
+  text-align: right;
+}
+[id^='modal-text'] {
+  text-align: center;
+}
+.modal-body {
+  line-height: 2rem;
+}
