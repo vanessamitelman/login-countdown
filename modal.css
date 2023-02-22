@@ -29,7 +29,6 @@
 }
 .modal-inner {
   width: max(50vw, 250px);
-  height: 50%;
   background: #fff;
   color: #000;
   animation: modal 1s ease-in-out;
